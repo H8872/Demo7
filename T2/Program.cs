@@ -17,8 +17,8 @@ namespace T2
 
             Console.WriteLine();
 
-            StreamWriter T2Integers = new StreamWriter(@"Z:\Olio-ohjelmoonti\T2Integers.txt");
-            StreamWriter T2Doubles = new StreamWriter(@"Z:\Olio-ohjelmoonti\T2Doubles.txt");
+            StreamWriter T2Integers = new StreamWriter(@"D:\H8872\Demo7\T2Integers.txt");
+            StreamWriter T2Doubles = new StreamWriter(@"D:\H8872\Demo7\T2Doubles.txt");
             do
             {
                 Console.Write(" Give a number(no number or 0 stops asking): ");
@@ -49,7 +49,7 @@ namespace T2
             Console.WriteLine(" Contents of T2Integers.txt:");
             try
             {
-                string[] ilines = System.IO.File.ReadAllLines(@"Z:\Olio-ohjelmoonti\T2Integers.txt");
+                string[] ilines = System.IO.File.ReadAllLines(@"D:\H8872\Demo7\T2Integers.txt");
                 foreach (string line in ilines)
                 {
                     Console.WriteLine(" -  " + line);
@@ -63,7 +63,7 @@ namespace T2
             Console.WriteLine("\n Contents of T2Doubles.txt:");
             try
             {
-                string[] dlines = System.IO.File.ReadAllLines(@"Z:\Olio-ohjelmoonti\T2Doubles.txt");
+                string[] dlines = System.IO.File.ReadAllLines(@"D:\H8872\Demo7\T2Doubles.txt");
                 foreach (string line in dlines)
                 {
                     Console.WriteLine(" -  " + line);
